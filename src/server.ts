@@ -33,6 +33,15 @@ const domain = ".vitalik.org";
 // custom namespace generated using: https://www.uuidtools.com/generate/v4
 const sessionNamespace = "01bbc88d-3cd2-465f-8687-e0ea5e8b1231";
 
+console.log({
+  sessionName,
+  secret,
+  ttl,
+  environment,
+  domain,
+  sessionNamespace,
+});
+
 const sessionMiddleware: RequestHandler = MasaSessionMiddleware({
   sessionName,
   secret,
