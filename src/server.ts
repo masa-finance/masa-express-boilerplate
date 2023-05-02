@@ -34,6 +34,7 @@ const domain = ".vitalik.org";
 const sessionNamespace = "01bbc88d-3cd2-465f-8687-e0ea5e8b1231";
 
 console.log({
+  env: process.env,
   sessionName,
   secret,
   ttl,
