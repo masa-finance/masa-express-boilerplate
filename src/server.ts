@@ -29,7 +29,9 @@ const ttl = 30 * 24 * 60 * 60;
 // production, dev or undefined (will fall back to dev then)
 const environment = process.env.NODE_ENV || "dev";
 // the domain your session should be valid on
-const domain = ".vitalik.org";
+const domain = process.env.RENDER_EXTERNAL_HOSTNAME
+  ? `.${process.env.RENDER_EXTERNAL_HOSTNAME}`
+  : ".vitalik.org";
 // custom namespace generated using: https://www.uuidtools.com/generate/v4
 const sessionNamespace = "01bbc88d-3cd2-465f-8687-e0ea5e8b1231";
 
