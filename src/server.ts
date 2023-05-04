@@ -27,7 +27,7 @@ const secret = "top_secret_1337";
 // 30 days session expiration time
 const ttl = 30 * 24 * 60 * 60;
 // production, dev or undefined (will fall back to dev then)
-const environment = process.env.NODE_ENV || "dev";
+const environment = "dev";
 // the domain your session should be valid on
 const domain = ".vitalik.org";
 // custom namespace generated using: https://www.uuidtools.com/generate/v4
