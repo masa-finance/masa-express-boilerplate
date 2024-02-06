@@ -376,20 +376,20 @@
   dependencies:
     ethers "~5.7.2"
 
-"@masa-finance/masa-express@^1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@masa-finance/masa-express/-/masa-express-1.3.3.tgz#8ccd1a495e2924531b1c7db10320c655d83e56cc"
-  integrity sha512-VmG3zQ+kOuwWfx3GKO+7lHTMcA5mO1CmJ1fzpXwsYRWH+jXyT63i/J8CosQQvliB1fo4/iYC9yUkEtZxuCk5yA==
+"@masa-finance/masa-express@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@masa-finance/masa-express/-/masa-express-1.4.2.tgz#748a93537c436cc069bbe47776eed1ba4ea619b7"
+  integrity sha512-Lr00KaeeVlAnsPOLdMhM68kMBDHLYlPgW5YwjPl5zh9h901uDY00ZghlI4wftwBHBr1InlxzhpzK83kbfkv5gw==
   dependencies:
-    "@masa-finance/masa-sdk" "^3.14.6"
+    "@masa-finance/masa-sdk" "^3.17.0"
     express "^4.18.2"
-    express-session "^1.17.3"
+    express-session "^1.18.0"
     uuid "^9.0.1"
 
-"@masa-finance/masa-sdk@^3.14.6":
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/@masa-finance/masa-sdk/-/masa-sdk-3.15.0.tgz#b98441142b21d8035085f12a1272550de77625b2"
-  integrity sha512-58Qf5Nu+1sV4/Yz6/0oJFhRrU29qXPBle//WZcBFzQVNBt+kvpcZQI946YkgOzKQl5MzkuFzvti05S9qNninMg==
+"@masa-finance/masa-sdk@^3.17.0":
+  version "3.17.0"
+  resolved "https://registry.yarnpkg.com/@masa-finance/masa-sdk/-/masa-sdk-3.17.0.tgz#bb24c3ea9ce0a14c43dc9b8501d9fd16a2fd0d9b"
+  integrity sha512-UoxRuBp+IvPfylJs91fbhT2wCX59maty2u3gkSZeetVTnMGoGhiYWV8RZJYcUHK9TVYq0gaJ2TWdQA0UZtmRVA==
   dependencies:
     "@ethersproject/abi" "^5.7.0"
     "@ethersproject/abstract-provider" "^5.7.0"
@@ -399,7 +399,7 @@
     "@masa-finance/masa-contracts-identity" "^1.12.0"
     "@masa-finance/masa-token" "^2.0.0"
     arweave "1.11.8"
-    axios "^1.6.5"
+    axios "^1.6.7"
     ethers "~5.7.2"
     grapheme-splitter "^1.0.4"
     typescript "^5.3.3"
@@ -608,10 +608,10 @@ axios@^0.27.2:
     follow-redirects "^1.14.9"
     form-data "^4.0.0"
 
-axios@^1.6.5:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.5.tgz#2c090da14aeeab3770ad30c3a1461bc970fb0cd8"
-  integrity sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==
+axios@^1.6.7:
+  version "1.6.7"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.7.tgz#7b48c2e27c96f9c68a2f8f31e2ab19f59b06b0a7"
+  integrity sha512-/hDJGff6/c7u0hDkvkGxR/oy6CbCs8ziCsC7SqmhjfozqiJGc8Z11wrv9z9lYfY4K8l+H9TpjcMDX0xOZmx+RA==
   dependencies:
     follow-redirects "^1.15.4"
     form-data "^4.0.0"
